@@ -40,7 +40,7 @@ class List extends React.Component {
     let results = this.state.currencies;
     this.fetchResults(nextPage, data => {
       const currencies = results.concat(data.currencies);
-      this.setState({ currencies: currencies, loading: false, page: nextPage });
+      this.setState({ currencies: currencies, page: nextPage });
     });
   };
 

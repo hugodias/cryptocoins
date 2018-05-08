@@ -42,3 +42,13 @@
   color: #9cb3c9;
   margin-right: 6px;
 }
+
+.Load-more {
+  background-color: #0f273d;
+  border-color: #1f364d;
+  color: #9cb3c9;
+  width: 100%;
+  padding: 20px 0;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+}
